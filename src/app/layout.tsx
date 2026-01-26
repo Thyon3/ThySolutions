@@ -6,6 +6,8 @@ import ScrollToTop from '@/app/components/ScrollToTop'
 import Aoscompo from '@/utils/aos'
 const font = Manrope({ subsets: ['latin'] })
 
+import { NextAuthProvider } from '@/app/components/Common/SessionProvider'
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,13 +16,16 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <body className={`${font.className}`}>
-        <Aoscompo>
-          <Header />
-          {children}
-          <Footer />
-        </Aoscompo>
-        <ScrollToTop />
+        <NextAuthProvider>
+          <Aoscompo>
+            <Header />
+            {children}
+            <Footer />
+          </Aoscompo>
+          <ScrollToTop />
+        </NextAuthProvider>
       </body>
     </html>
   )
 }
+
