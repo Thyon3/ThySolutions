@@ -255,27 +255,27 @@ const FooterLinksData: footerlinks[] = [
   {
     section: 'Menu',
     links: [
-      { label: 'About Us', href: '#About' },
-      { label: 'Team', href: '#Team' },
-      { label: 'FAQ', href: '#FAQ' },
-      { label: 'Blog', href: '#Blog' },
+      { label: 'About Us', href: '/about' },
+      { label: 'Services', href: '/services' },
+      { label: 'Pricing', href: '/pricing' },
+      { label: 'Blog', href: '/blog' },
     ],
   },
   {
     section: 'Category',
     links: [
-      { label: 'Design', href: '/' },
-      { label: 'Mockup', href: '/' },
-      { label: 'View all', href: '/' },
-      { label: 'Log In', href: '/' },
+      { label: 'Features', href: '/features' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Dashboard', href: '/dashboard' },
+      { label: 'Home', href: '/' },
     ],
   },
   {
     section: 'Pages',
     links: [
-      { label: '404', href: '/' },
-      { label: 'Instructions', href: '/' },
-      { label: 'License', href: '/' },
+      { label: 'Sign In', href: '#' },
+      { label: 'Sign Up', href: '#' },
+      { label: 'Privacy Policy', href: '/' },
     ],
   },
   {
@@ -286,6 +286,7 @@ const FooterLinksData: footerlinks[] = [
     ],
   },
 ]
+
 
 export const GET = () => {
   return NextResponse.json({
