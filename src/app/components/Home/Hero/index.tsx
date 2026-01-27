@@ -4,7 +4,10 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Icon } from '@iconify/react/dist/iconify.js'
 
+import { useSession } from 'next-auth/react'
+
 const Hero = () => {
+  const { data: session } = useSession()
   const leftAnimation = {
     initial: { x: '-100%', opacity: 0 },
     animate: { x: 0, opacity: 1 },
@@ -30,12 +33,13 @@ const Hero = () => {
             <h1>
               Dedicated to bring your ideas to life.
             </h1>
-            <Link href={'#'}>
+            <Link href={session ? '/dashboard' : '/about'}>
               <button className='bg-primary text-white text-xl font-semibold py-5 px-12 rounded-full hover:bg-darkmode hover:cursor-pointer mt-10'>
-                Get started
+                {session ? 'Go to Dashboard' : 'Learn More'}
               </button>
             </Link>
           </div>
+
           <div className='xl:col-span-7 lg:col-span-6 lg:block hidden'>
             <Image
               src='/images/hero/banner-image.png'
