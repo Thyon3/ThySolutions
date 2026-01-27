@@ -275,7 +275,7 @@ const FooterLinksData: footerlinks[] = [
     links: [
       { label: 'Sign In', href: '#' },
       { label: 'Sign Up', href: '#' },
-      { label: 'Privacy Policy', href: '/' },
+      { label: 'Privacy Policy', href: '/privacy-policy' },
     ],
   },
   {
