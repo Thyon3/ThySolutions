@@ -1,4 +1,4 @@
-import clientPromise from '@/lib/mongodb'
+import { getMongoClient } from '@/lib/mongodb'
 import bcrypt from 'bcryptjs'
 import { NextResponse } from 'next/server'
 
@@ -13,7 +13,7 @@ export async function POST(request: Request) {
             )
         }
 
-        const client = await clientPromise
+        const client = await getMongoClient()
         const db = client.db()
 
         // Check if user already exists

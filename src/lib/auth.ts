@@ -1,11 +1,13 @@
 import { MongoDBAdapter } from '@next-auth/mongodb-adapter'
 import { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
-import clientPromise from './mongodb'
+import { getMongoClient } from './mongodb'
 import bcrypt from 'bcryptjs'
 
+const hasMongo = !!process.env.MONGODB_URI
+
 export const authOptions: NextAuthOptions = {
-    adapter: MongoDBAdapter(clientPromise),
+    ...(hasMongo ? { adapter: MongoDBAdapter(getMongoClient()) } : {}),
     providers: [
         CredentialsProvider({
             name: 'credentials',
@@ -18,7 +20,7 @@ export const authOptions: NextAuthOptions = {
                     throw new Error('Invalid credentials')
                 }
 
-                const client = await clientPromise
+                const client = await getMongoClient()
                 const db = client.db()
                 const user = await db.collection('users').findOne({ email: credentials.email })
 
