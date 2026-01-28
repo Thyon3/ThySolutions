@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Join = () => {
   return (
     <section className='overflow-hidden bg-joinus'>
-      <div className='container mx-auto max-w-7xl px-4'>
+      <div className='site-container'>
         <div className='text-center'>
           <p className='text-primary text-lg font-normal tracking-widest uppercase'>
             Join us
@@ -16,7 +16,7 @@ const Join = () => {
           </p>
         </div>
 
-        <div className='mx-auto max-w-4xl pt-5'>
+        <div className='mx-auto w-full max-w-4xl pt-5'>
           <div className='sm:flex items-center mx-5 p-5 sm:p-0 rounded-xl justify-between bg-grey sm:rounded-full'>
             <div>
               <input

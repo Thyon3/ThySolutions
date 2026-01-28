@@ -29,7 +29,7 @@ const Aboutus = () => {
 
   return (
     <section id='About' className=' bg-cover bg-center overflow-hidden'>
-      <div className='container mx-auto max-w-7xl px-4 relative z-1'>
+      <div className='site-container relative z-1'>
         <div className='p-12 bg-grey rounded-3xl'>
           <Image
             src='/images/aboutus/dots.svg'

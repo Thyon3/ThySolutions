@@ -46,7 +46,7 @@ const Manage = () => {
 
   return (
     <section id='services-section'>
-      <div className='container mx-auto max-w-7xl px-4'>
+      <div className='site-container'>
         <h2 className='text-center '>
           Choose a plan to build and maintain your product with Thysolutions.
         </h2>

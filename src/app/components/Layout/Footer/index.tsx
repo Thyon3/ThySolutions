@@ -26,7 +26,7 @@ const footer = () => {
 
   return (
     <div className='bg-black' id='first-section'>
-      <div className='container mx-auto max-w-2xl pt-48 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
+      <div className='site-container pt-48 pb-16'>
         <div className='grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8'>
           {/* COLUMN-1 */}
           <div className='col-span-4'>
@@ -88,7 +88,7 @@ const footer = () => {
         </div>
       </div>
       {/* All Rights Reserved */}
-      <div className='mx-auto max-w-2xl lg:max-w-7xl'>
+      <div className='site-container'>
         <div className='pt-5 pb-5 px-4 sm:px-6 lg:px-4 border-t border-white/30'>
           <div className='mt-4 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 xl:gap-x-8'>
             <div>

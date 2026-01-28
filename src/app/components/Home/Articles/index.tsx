@@ -60,7 +60,7 @@ const Articles = () => {
 
   return (
     <section id='Blog' className='relative bg-grey overflow-hidden'>
-      <div className='container mx-auto max-w-7xl px-4 relative'>
+      <div className='site-container relative'>
         <div className='text-center'>
           <p className='text-primary text-xl font-normal tracking-widest'>
             ARTICLES

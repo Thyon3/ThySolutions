@@ -103,6 +103,17 @@ html {
   overflow-x: hidden;
 }
 
+@layer components {
+  /*
+    Full-width page container:
+    - Uses the full viewport width
+    - Keeps comfortable side padding on all breakpoints
+  */
+  .site-container {
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-12;
+  }
+}
+
 .bg-joinus {
   background-image: url('/images/joinus/horn.svg'),
     url('/images/joinus/paint.svg');

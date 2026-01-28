@@ -9,7 +9,7 @@ const PrivacyPage = () => {
     return (
         <>
             <Breadcrumb pageName='Privacy Policy' />
-            <div className='container mx-auto max-w-4xl px-4 py-20'>
+            <div className='site-container py-20'>
                 <div className='bg-white dark:bg-gray-800 rounded-3xl p-10 shadow-lg border border-gray-100 dark:border-gray-700'>
                     <h1 className='text-3xl font-bold mb-6 text-black'>Privacy Policy</h1>
                     <p className='text-gray-600 dark:text-gray-400 mb-6'>

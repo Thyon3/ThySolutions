@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Team = () => {
   return (
     <section className='overflow-x-hidden'>
-      <div className='container mx-auto max-w-7xl px-4 relative'>
+      <div className='site-container relative'>
         <h2 className='text-center max-w-5xl mx-auto'>
           Our team believes you deserve software that’s fast, secure, and maintainable.
         </h2>
