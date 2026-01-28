@@ -45,7 +45,7 @@ const Manage = () => {
   }))
 
   return (
-    <section id='services-section'>
+    <section id='services-section' className='bg-linear-to-b from-white via-transparent to-grey/40'>
       <div className='site-container'>
         <h2 className='text-center '>
           Choose a plan to build and maintain your product with Thysolutions.

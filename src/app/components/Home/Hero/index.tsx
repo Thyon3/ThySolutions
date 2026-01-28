@@ -23,9 +23,9 @@ const Hero = () => {
   }
 
   return (
-    <section className='relative overflow-hidden z-1'>
+    <section className='relative overflow-hidden z-1 bg-linear-to-b from-primary/5 via-transparent to-transparent'>
       <div className='site-container pt-24'>
-        <div className='grid grid-cols-12 justify-center items-center'>
+        <div className='grid grid-cols-12 justify-center items-center gap-10'>
           <div className='col-span-12 xl:col-span-5 lg:col-span-6 md:col-span-12 sm:col-span-12'>
             <div className='py-2 px-5 bg-primary/15 rounded-full w-fit'>
               <p className='text-primary text-lg font-bold'>SOFTWARE COMPANY</p>

@@ -73,7 +73,7 @@ const Work = () => {
   return (
     <section
       id='Team'
-      className="relative dark:bg-darkmode py-4 bg-cover bg-center overflow-hidden before:absolute before:w-full before:h-full before:bg-[url('/images/wework/elipse.svg')] before:bg-no-repeat before:bg-center after:absolute after:w-1/3 after:h-1/3 after:bg-[url('/images/wework/vector.svg')] after:bg-no-repeat after:top-28 after:-right-12 after:-z-10">
+      className="relative dark:bg-darkmode py-4 bg-cover bg-center overflow-hidden bg-linear-to-b from-white via-transparent to-white" before:absolute before:w-full before:h-full before:bg-[url('/images/wework/elipse.svg')] before:bg-no-repeat before:bg-center after:absolute after:w-1/3 after:h-1/3 after:bg-[url('/images/wework/vector.svg')] after:bg-no-repeat after:top-28 after:-right-12 after:-z-10">
       <div className='site-container'>
         <div className='text-center overflow-hidden'>
           <h3 className='text-black my-5'>

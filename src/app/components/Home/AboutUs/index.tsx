@@ -28,9 +28,9 @@ const Aboutus = () => {
   }, [])
 
   return (
-    <section id='About' className=' bg-cover bg-center overflow-hidden'>
+    <section id='About' className='bg-cover bg-center overflow-hidden bg-linear-to-b from-grey to-white'>
       <div className='site-container relative z-1'>
-        <div className='p-12 bg-grey rounded-3xl'>
+        <div className='p-12 bg-grey/80 backdrop-blur-sm rounded-3xl border border-black/5'>
           <Image
             src='/images/aboutus/dots.svg'
             width={100}

@@ -59,7 +59,7 @@ const Articles = () => {
   }, [])
 
   return (
-    <section id='Blog' className='relative bg-grey overflow-hidden'>
+    <section id='Blog' className='relative bg-grey overflow-hidden bg-linear-to-b from-grey to-white'>
       <div className='site-container relative'>
         <div className='text-center'>
           <p className='text-primary text-xl font-normal tracking-widest'>
