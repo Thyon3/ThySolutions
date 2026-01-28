@@ -3,7 +3,7 @@ import Featured from '@/app/components/Home/Featured'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Features | Desgy Solutions',
+    title: 'Features | Thysolutions',
 }
 
 const FeaturesPage = () => {

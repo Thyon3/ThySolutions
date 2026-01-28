@@ -3,7 +3,7 @@ import FAQ from '@/app/components/Home/FAQ'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'FAQ | Desgy Solutions',
+    title: 'FAQ | Thysolutions',
 }
 
 const FAQPage = () => {

@@ -15,7 +15,7 @@ const Digital = () => {
                 Who we are
               </p>
               <h2 className='text-white mb-8 leading-tight text-center lg:text-start lg:w-full'>
-                We are a digital agency that builds amazing products.
+                We are Thysolutions — a startup tech team building web apps, mobile apps, and cloud-ready systems.
               </h2>
               <div className='text-center lg:text-start'>
                 <Link

@@ -3,7 +3,7 @@ import Pricing from '@/app/components/Home/Manage' // Using existing Manage comp
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Pricing | Desgy Solutions',
+    title: 'Pricing | Thysolutions',
 }
 
 const PricingPage = () => {

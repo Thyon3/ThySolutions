@@ -37,14 +37,13 @@ const Dedicated = () => {
               />
             </div>
             <h2 className='text-center -mr-1 lg:text-start lg:leading-20 leading-14'>
-              “Dedicated to help people’s design needs.”
+              “Dedicated to helping teams build reliable software.”
             </h2>
             <p className='text-xl font-medium text-black/55 mt-5 text-center lg:text-start'>
-              Quis ipsum suspendisse ultrices gravida risus commodo viverra
-              maecenas accumsan lacus vel facilisis
+              We deliver end-to-end development: product discovery, UI implementation, API development, database design, and secure cloud hosting.
             </p>
             <h5 className='mt-12 lg:pl-32 relative lg:before:block before:hidden before:absolute before:bg-black before:h-0.5 before:w-24 before:left-0 before:bottom-1/2 text-center lg:text-start'>
-              Cathy Hills, CEO
+              Thysolutions Team
             </h5>
           </div>
         </div>

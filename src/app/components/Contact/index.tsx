@@ -9,8 +9,8 @@ const Contact = () => {
                     <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
                         <h2 className="text-4xl font-bold mb-6 text-black">Get in Touch</h2>
                         <p className="text-lg text-gray-600 mb-8">
-                            Have a project in mind? Looking for a partner to help you grow your brand?
-                            We'd love to hear from you.
+                            Have a project in mind? Need a tech partner to design, build, and host your software?
+                            Wed love to hear from you.
                         </p>
                         <div className="space-y-4">
                             <div className="flex items-center">
@@ -19,7 +19,7 @@ const Contact = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                 </span>
-                                <span className="text-lg">hello@desgy.com</span>
+                                <span className="text-lg">hello@thysolutions.com</span>
                             </div>
                             <div className="flex items-center">
                                 <span className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mr-4">
@@ -28,7 +28,7 @@ const Contact = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                     </svg>
                                 </span>
-                                <span className="text-lg">123 Design St, Creative City, 10101</span>
+                                <span className="text-lg">Remote-first  working with clients worldwide</span>
                             </div>
                         </div>
                     </div>

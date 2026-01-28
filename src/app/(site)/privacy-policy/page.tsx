@@ -2,7 +2,7 @@ import Breadcrumb from '@/app/components/Common/Breadcrumb'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy | Desgy Solutions',
+    title: 'Privacy Policy | Thysolutions',
 }
 
 const PrivacyPage = () => {

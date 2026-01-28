@@ -48,7 +48,7 @@ const Manage = () => {
     <section id='services-section'>
       <div className='container mx-auto max-w-7xl px-4'>
         <h2 className='text-center '>
-          Manage All Your Social Media Profiles From One Place.
+          Choose a plan to build and maintain your product with Thysolutions.
         </h2>
         {/*  */}
         <div className='flex sm:block'>
@@ -60,7 +60,7 @@ const Manage = () => {
                 width={21}
                 height={14}
               />
-              <p className='text-lg font-semibold'>Free 15-day trial</p>
+              <p className='text-lg font-semibold'>Free consultation call</p>
             </div>
             <div className='flex gap-5 items-center justify-center md:justify-start'>
               <Image
@@ -69,7 +69,7 @@ const Manage = () => {
                 width={21}
                 height={14}
               />
-              <p className='text-lg font-semibold'>Unlimited Team Members</p>
+              <p className='text-lg font-semibold'>Transparent milestones</p>
             </div>
             <div className='flex gap-5 items-center justify-center md:justify-start'>
               <Image
@@ -85,7 +85,7 @@ const Manage = () => {
         {/*  */}
         <div className='mt-6 relative'>
           <div className='dance-text xl:-ml-80 lg:-ml-80 md:-ml-80 -ml-52  text-center -rotate-[10deg] mb-5'>
-            get 3 months free
+            save with annual billing
           </div>
           <Image
             src='/images/manage/toggle.svg'
@@ -123,7 +123,7 @@ const Manage = () => {
                   <p className='text-sm font-medium mb-6'>{items.user}</p>
                   <Link href={'#'}>
                     <button className='text-sm font-bold text-primary bg-transparent hover:bg-primary hover:text-white border-2 border-primary rounded-full py-4 px-12 mb-6 hover:cursor-pointer'>
-                      Start My 15-day Trial
+                      Request a Quote
                     </button>
                   </Link>
                   {/* Map through the features object and render each key-value pair dynamically */}

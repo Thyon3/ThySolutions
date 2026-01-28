@@ -25,7 +25,7 @@ const FAQ = () => {
                   <div>
                     <DisclosureButton className='flex w-full justify-between items-center text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
                       <span className='text-black'>
-                        Can you design my site?
+                        Can you build my website or web app?
                       </span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
@@ -36,10 +36,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 font-normal text-left pt-4 mt-6 border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Yes. We build modern, responsive websites and full web applications  from landing pages to custom dashboards  using proven stacks and best practices.
                       </div>
                     </DisclosurePanel>
                   </div>
@@ -51,7 +48,7 @@ const FAQ = () => {
                 {({ open }) => (
                   <>
                     <DisclosureButton className='flex w-full justify-between items-center rounded-lg text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
-                      <span className='text-black'>Can you code my site?</span>
+                      <span className='text-black'>Do you develop mobile applications too?</span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
                           open ? 'rotate-180' : ''
@@ -61,10 +58,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 pt-4 mt-6 text-left border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Absolutely. We develop iOS and Android apps (cross-platform or native), and we can also build the backend APIs your mobile app needs.
                       </div>
                     </DisclosurePanel>
                   </>
@@ -77,7 +71,7 @@ const FAQ = () => {
                 {({ open }) => (
                   <>
                     <DisclosureButton className='flex w-full justify-between items-center rounded-lg text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
-                      <span className='text-black'>Where are you located?</span>
+                      <span className='text-black'>Do you offer hosting and ongoing support?</span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
                           open ? 'rotate-180' : ''
@@ -87,10 +81,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 pt-4 mt-6 font-normal text-left border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Yes. We can host and maintain your product with secure deployments, monitoring, backups, and ongoing improvements  so you can focus on growth.
                       </div>
                     </DisclosurePanel>
                   </>

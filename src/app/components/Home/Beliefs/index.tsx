@@ -16,12 +16,11 @@ const Beliefs = () => {
             <h3 className='text-white mb-5 text-center sm:text-start'>
               Honesty{' '}
               <span className='text-white/60'>
-                and hard work are our beliefs.
+                and engineering excellence are our beliefs.
               </span>
             </h3>
             <p className='text-lg text-white/75 pt-2 mb-16 text-center sm:text-start'>
-              Quis ipsum suspendisse ultrices gravida risus commodo viverra
-              maecenas accumsan lacus vel facilisis.
+              We communicate clearly, deliver iteratively, and treat your product like our own — from discovery to deployment and beyond.
             </p>
             <div className='text-center sm:text-start'>
               <Link
@@ -39,12 +38,10 @@ const Beliefs = () => {
                 BUILD
               </p>
               <h3 className='text-black mb-5 text-center sm:text-start'>
-                <span className='text-primary'>Build</span> that great idea that
-                you have.
+                <span className='text-primary'>Ship</span> that great idea you’ve been planning.
               </h3>
               <p className='pt-2 mb-16 text-center sm:text-start text-black/75 text-lg'>
-                Quis ipsum suspendisse ultrices gravida risus commodo viverra
-                maecenas accumsan lacus vel facilisis.
+                From MVPs to production platforms, we design the architecture, write the code, and keep it running with monitoring and support.
               </p>
               <div className='text-center sm:text-start'>
                 <Link

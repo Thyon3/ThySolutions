@@ -4,7 +4,7 @@ import Team from '@/app/components/Home/Team'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'About Us | Desgy Solutions',
+    title: 'About Us | Thysolutions',
 }
 
 const AboutPage = () => {

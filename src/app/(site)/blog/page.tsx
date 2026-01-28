@@ -3,7 +3,7 @@ import Articles from '@/app/components/Home/Articles'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Blog | Desgy Solutions',
+    title: 'Blog | Thysolutions',
 }
 
 const BlogPage = () => {

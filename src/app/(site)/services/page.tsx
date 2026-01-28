@@ -4,7 +4,7 @@ import Beliefs from '@/app/components/Home/Beliefs'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Services | Desgy Solutions',
+    title: 'Services | Thysolutions',
 }
 
 const ServicesPage = () => {

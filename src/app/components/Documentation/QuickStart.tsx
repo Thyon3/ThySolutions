@@ -58,10 +58,10 @@ export const QuickStart = () => {
         </p>
         <div className="py-4 px-3 rounded-md bg-dark_grey">
           <p className="text-sm text-black/60">
-            {"> desgy_project@0.1.0 dev"}
+            {"> thysolutions@0.1.0 dev"}
           </p>
           <p className="text-sm text-black/60 mt-1">{"> next dev"}</p>
-          <p className="text-sm text-black/60 mt-6">{"-Next.js 14.2.4"}</p>
+          <p className="text-sm text-black/60 mt-6">{"-Next.js"}</p>
           <p className="text-sm text-black/60 mt-1">
             {"-Local: http://localhost:3000"}
           </p>
@@ -79,7 +79,7 @@ export const QuickStart = () => {
           <p className="text-sm text-black/60">npm run build or yarn build</p>
         </div>
         <p className="text-base font-medium text-muted/60 mt-6">
-          Finally, Your webiste is ready to be deployed.🥳
+          Finally, your website is ready to be deployed.
         </p>
       </div>
     </div>

@@ -36,11 +36,11 @@ export default function ScrollToTop() {
           <div className='flex items-center gap-2.5'>
             <Link
               href={
-                'https://getnextjstemplates.com/products/desgy-nextjs-free-landing-page-template'
+                'https://thysolutions.com'
               }
               target='_blank'
               className='hidden lg:block bg-primary text-white hover:bg-darkmode text-sm px-4 py-3.5 leading-none rounded-lg font-medium text-nowrap'>
-              Download Now
+              Visit Thysolutions
             </Link>
             {isVisible && (
               <div
